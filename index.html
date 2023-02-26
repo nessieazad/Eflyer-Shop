@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Flyer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/50395c8805.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class=" bg-banner">
+        <nav class="container  navbar navbar-expand-lg bg-dark bg-size p-2">
+            <div class="container ">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-flex justify-content-around" id="navbarNavAltMarkup">
+                    <div class="navbar-nav fw-semibold fs-6">
+                        <a class="nav-link text-white" aria-current="page" href="#">Best Sellers</a>
+                        <a class="nav-link text-white" href="#">Gift Ideas</a>
+                        <a class="nav-link text-white" href="#">New Releases</a>
+                        <a class="nav-link text-white" href="#">Today's Deal</a>
+                        <a class="nav-link text-white" href="#">Customer Service</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- ---------navbar-end---------- -->
+
+        <section class="container">
+            <div class="logo d-flex justify-content-center align-items-center py-5">
+                <img src="images/logo.png" alt="">
+            </div>
+
+            <!-- ------line-bars start------------ -->
+            <div class="bar d-flex justify-content-between">
+                <div class="menu-icon">
+                    <!-- <img src="images/toggle-icon.png" alt=""> -->
+                    <img src="images/toggle-icon.png" class="" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+                    <div style="width: 250px;" class="offcanvas offcanvas-start bg-black" data-bs-scroll="true"
+                        data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling"
+                        aria-labelledby="offcanvasScrollingLabel">
+                        <div class="offcanvas-header">
+                            <button type="button" class="btn-close btn-close-white ms-auto " data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body side-nav">
+                            <ul class="side-items">
+                                <li><a href="">Home</a></li>
+                                <li><a href="">Fashion</a></li>
+                                <li><a href="">Electronic</a></li>
+                                <li><a href="">Jewellery</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a class="btn btn-dark dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        All Category
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+                <div class="search">
+                    <input class="search-field" placeholder="Search a blog" type="text">
+                    <button class="search-btn">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+                <div class="bar-box d-flex">
+                    <div class="language-box me-4">
+                        <div class="dropdown">
+                            <button class="btn btn-light dropdown-toggle d-flex align-items-center" type="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <img class="me-2" src="images/flag-uk.png" alt="">
+                                English
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><button class="dropdown-item d-flex align-items-center" type="button">
+                                        <img class="me-2" src="images/flag-france.png" alt="">
+                                        French</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="profile-box d-flex align-items-center">
+                        <a class="me-3" href="#">
+                            <i class="me-2 fa-solid fa-cart-shopping"></i>
+                            CART
+                        </a>
+                        <a class="me-3" href="#">
+                            <i class="me-2 fa-solid fa-user"></i>
+                            PROFILE</a>
+                    </div>
+                </div>
+            </div>
+            <!-- ------line-bars end------------ -->
+
+            <!-- -----Get-Start Carousel Begin--------- -->
+            <div id="carouselExampleAutoplaying" class=" carousel slide text-center" style="margin: 65px 0;"
+                data-bs-ride="carousel">
+                <div class="carousel-inner ">
+                    <div class="carousel-item active">
+                        <h1 class="d-block text-white  fw-bold  mb-5" style="font-size: 55px;">GET START <br>
+                            YOUR FAVORITE SHOPPING </h1>
+                        <button class="px-5 py-2 text-bg border-0 rounded fw-bold">BUY NOW</button>
+                    </div>
+                    <div class="carousel-item ">
+                        <h1 class="d-block text-white  fw-bold  mb-5" style="font-size: 55px;">GET START <br>
+                            YOUR FAVORITE SHOPPING </h1>
+                        <button class="px-5 py-2 text-bg border-0 rounded fw-bold">BUY NOW</button>
+                    </div>
+                    <div class="carousel-item">
+                        <h1 class="d-block text-white  fw-bold  mb-5" style="font-size: 55px;">GET START <br>
+                            YOUR FAVORITE SHOPPING </h1>
+                        <button class="px-5 py-2 text-bg border-0 rounded fw-bold">BUY NOW</button>
+                    </div>
+                </div>
+                <button class=" carousel-control-prev m-0" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="rounded-icon">
+                        <i class="fa-solid fa-angle-left"></i>
+                    </span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="rounded-icon">
+                        <i class="fa-solid fa-angle-right"></i>
+                    </span>
+                </button>
+            </div>
+            <!-- ----------Get-Started Carousel End---------------- -->
+        </section>
+    </div>
+
+    <!-- -------Fashion Started------------- -->
+    <section class="container">
+        <h1 class="text-center py-2">Man & Woman Fashion</h1>
+        <div class="container text-center mt-5">
+            <div class="row">
+                <div class="shadow  col mx-3">
+                    <h4 class="fw-bold pt-4">Man T -shirt</h4>
+                    <h5><span style="color:#f26522">Price</span> <span style="color:#252525">$ 30</span></h5>
+                    <p class="my-4">
+                        <img src="images/tshirt-img.png" alt="">
+                    </p>
+                    <div class="d-flex justify-content-md-around mb-4">
+                        <div class="my-1">
+                            <a class="fs-5 fw-bolder buynow-btn" href="#">Buy Now</a>
+                        </div>
+                        <div class="my-1">
+                            <a class="fs-5 seemore-btn" href="#">See More </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col shadow  mx-3">
+                    <h4 class="fw-bold  pt-4">Man T -shirt</h4>
+                    <h5><span style="color:#f26522">Price</span> <span style="color:#252525">$ 30</span></h5>
+                    <p class="my-4">
+                        <img src="images/dress-shirt-img.png" alt="">
+                    </p>
+                    <div class="d-flex justify-content-md-around mb-4">
+                        <div class="my-1">
+                            <a class="fs-5 fw-bolder buynow-btn" href="#">Buy Now</a>
+                        </div>
+                        <div class="my-1">
+                            <a class="fs-5 seemore-btn" href="#">See More </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col shadow  mx-3">
+                    <h4 class="fw-bold  pt-4">Man T -shirt</h4>
+                    <h5><span style="color:#f26522">Price</span> <span style="color:#252525">$ 30</span></h5>
+                    <p class="my-4">
+                        <img src="images/women-clothes-img.png" alt="">
+                    </p>
+                    <div class="d-flex justify-content-md-around mb-4">
+                        <div class="my-1">
+                            <a class="fs-5 fw-bolder buynow-btn" href="#">Buy Now</a>
+                        </div>
+                        <div class="my-1">
+                            <a class="fs-5 seemore-btn" href="#">See More </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ---------------Fashion End-------- -->
+
+    <!-- ------------less-than/greater-than btn begin------------ -->
+    <div class="text-center py-5">
+        <button class="py-3 px-4 border-0 less-greater-btn">
+            <a href="#"><i class="fa-solid fa-less-than fs-4 fw-bold text-light"></i></a>
+        </button>
+        <button class="py-3 px-4 border-0 less-greater-btn">
+            <a href="#"><i class="fa-solid fa-greater-than fs-4 fw-bold text-light"></i></a>
+        </button>
+    </div>
+    <!-- ------------less-than/greater-than btn End------------ -->
+
+    <!-- -----------Electronics Begin---------------- -->
+    <section class="container">
+        <h1 class="text-center py-2">Electronic</h1>
+        <div class="container text-center mt-5">
+            <div class="row">
+                <div class="shadow  col mx-3">
+                    <h4 class="fw-bold pt-4">Laptop</h4>
+                    <h5><span style="color:#f26522">Start Price</span> <span style="color:#252525">$ 100</span></h5>
+                    <p class="my-4">
+                        <img class="w-75 m-5" src="images/laptop-img.png" alt="">
+                    </p>
+                    <div class="d-flex justify-content-md-around mb-4">
+                        <div class="my-1">
+                            <a class="fs-5 fw-bolder buynow-btn" href="#">Buy Now</a>
+                        </div>
+                        <div class="my-1">
+                            <a class="fs-5 seemore-btn" href="#">See More </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow  col mx-3">
+                    <h4 class="fw-bold pt-4">Laptop</h4>
+                    <h5><span style="color:#f26522">Start Price</span> <span style="color:#252525">$ 100</span></h5>
+                    <p class="my-4 ">
+                        <img class="w-75 m-5" src="images/mobile-img.png" alt="">
+                    </p>
+                    <div class="d-flex justify-content-md-around mb-4">
+                        <div class="my-1">
+                            <a class="fs-5 fw-bolder buynow-btn" href="#">Buy Now</a>
+                        </div>
+                        <div class="my-1">
+                            <a class="fs-5 seemore-btn" href="#">See More </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow  col mx-3">
+                    <h4 class="fw-bold pt-4">Laptop</h4>
+                    <h5><span style="color:#f26522">Start Price</span> <span style="color:#252525">$ 100</span></h5>
+                    <p class="my-4">
+                        <img src="images/computer-img.png" alt="">
+                    </p>
+                    <div class="d-flex justify-content-md-around mb-4">
+                        <div class="my-1">
+                            <a class="fs-5 fw-bolder buynow-btn" href="#">Buy Now</a>
+                        </div>
+                        <div class="my-1">
+                            <a class="fs-5 seemore-btn" href="#">See More </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- ---------------------Electronics End----------------------- -->
+
+    <!-- ------------less-than/greater-than btn begin------------ -->
+    <div class="text-center py-5">
+        <button class="py-3 px-4 border-0 less-greater-btn">
+            <a href="#"><i class="fa-solid fa-less-than fs-4 fw-bold text-light"></i></a>
+        </button>
+        <button class="py-3 px-4 border-0 less-greater-btn">
+            <a href="#"><i class="fa-solid fa-greater-than fs-4 fw-bold text-light"></i></a>
+        </button>
+    </div>
+    <!-- ------------less-than/greater-than btn End------------ -->
+
+    <!-- ----------------Jewellery Accessories Begin------------ -->
+    <section class="container">
+        <h1 class="text-center py-2">Jewellery Accessories</h1>
+        <div class="container text-center mt-5">
+            <div class="row">
+                <div class="shadow  col mx-3">
+                    <h4 class="fw-bold pt-4">Jumkas</h4>
+                    <h5><span style="color:#f26522">Start Price</span> <span style="color:#252525">$ 100</span></h5>
+                    <p class="my-4">
+                        <img class="w-75 m-5" src="images/jhumka-img.png" alt="">
+                    </p>
+                    <div class="d-flex justify-content-md-around mb-4">
+                        <div class="my-1">
+                            <a class="fs-5 fw-bolder buynow-btn" href="#">Buy Now</a>
+                        </div>
+                        <div class="my-1">
+                            <a class="fs-5 seemore-btn" href="#">See More </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow  col mx-3">
+                    <h4 class="fw-bold pt-4">Necklaces</h4>
+                    <h5><span style="color:#f26522">Start Price</span> <span style="color:#252525">$ 100</span></h5>
+                    <p class="my-4 ">
+                        <img class="w-75 m-5" src="images/neklesh-img.png" alt="">
+                    </p>
+                    <div class="d-flex justify-content-md-around mb-4">
+                        <div class="my-1">
+                            <a class="fs-5 fw-bolder buynow-btn" href="#">Buy Now</a>
+                        </div>
+                        <div class="my-1">
+                            <a class="fs-5 seemore-btn" href="#">See More </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow  col mx-3">
+                    <h4 class="fw-bold pt-4">Kangans</h4>
+                    <h5><span style="color:#f26522">Start Price</span> <span style="color:#252525">$ 100</span></h5>
+                    <p class="my-4">
+                        <img src="images/kangan-img.png" alt="">
+                    </p>
+                    <div class="d-flex justify-content-md-around mb-4">
+                        <div class="my-1">
+                            <a class="fs-5 fw-bolder buynow-btn" href="#">Buy Now</a>
+                        </div>
+                        <div class="my-1">
+                            <a class="fs-5 seemore-btn" href="#">See More </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- -------------Jewellery Accessories End------------------- -->
+
+    <!-- ------------less-than/greater-than btn begin------------ -->
+    <div class="text-center py-5">
+        <button class="py-3 px-4 border-0 less-greater-btn">
+            <a href="#"><i class="fa-solid fa-less-than fs-4 fw-bold text-light"></i></a>
+        </button>
+        <button class="py-3 px-4 border-0 less-greater-btn">
+            <a href="#"><i class="fa-solid fa-greater-than fs-4 fw-bold text-light"></i></a>
+        </button>
+    </div>
+    <!-- ------------less-than/greater-than btn End------------ -->
+
+    <footer class=" bg-dark p-5">
+        <div class=" container text-center">
+            <div>
+                <img src="images/footer-logo.png" alt="">
+            </div>
+            <div class="w-50 mx-auto border-bottom pt-2">
+                <input class="w-75 py-3 bg-transparent border-0 fw-semibold fs-5 input-field"
+                    style="outline:none;color: #fff;" placeholder="Your Email" type="text">
+                <button class="w-25 bg-dark py-3 border-0 fw-semibold fs-5 text-end"
+                    style="color:#f26522; margin-left: -10px;">Subscribe</button>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

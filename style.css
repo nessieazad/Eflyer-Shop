@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-size {
+    clip-path: polygon(0 0, 100% 0, 96% 100%, 3% 100%);
+}
+
+.bg-banner {
+    background-image: url(images/banner-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.search-field {
+    width: 500px;
+    border: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 8px 10px;
+    outline: none;
+}
+
+.search-btn {
+    color: white;
+    background-color: #f26522;
+    border: none;
+    padding: 8px 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: -5px;
+}
+
+
+.search-icon {
+    color: white;
+}
+
+.profile-box a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.profile-box a:hover {
+    color: #f26522;
+}
+
+.side-nav li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.side-nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.side-nav li:hover a {
+    color: #f26522;
+}
+
+.text-bg {
+    color: white;
+    background-color: #252525;
+    transition: 0.3s;
+}
+
+.text-bg:hover {
+    background-color: #f26522;
+}
+
+.buynow-btn {
+    text-decoration: none;
+    color: #f26522;
+    transition: 0.3s;
+}
+
+.buynow-btn:hover {
+    color: #252525;
+}
+
+.seemore-btn {
+    text-decoration: none;
+    color: #252525;
+    transition: 0.3s;
+}
+
+.seemore-btn:hover {
+    color: #f26522;
+}
+
+.less-greater-btn {
+    background-color: #252525;
+    transition: 0.3s;
+}
+
+
+.less-greater-btn:hover {
+    background-color: #f26522;
+}
+
+.rounded-icon {
+    padding: 15px 22px;
+    background-color: antiquewhite;
+    color: black;
+    border-radius: 50%;
+}
+
+.input-field::placeholder {
+    color: white;
+}
