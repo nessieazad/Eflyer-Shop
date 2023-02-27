@@ -118,3 +118,12 @@
 .input-field::placeholder {
     color: white;
 }
+
+.footer-hover {
+    color: white;
+    transition: 0.3s;
+}
+
+.footer-hover:hover {
+    color: #f26522;
+}
